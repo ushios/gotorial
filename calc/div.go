@@ -5,7 +5,7 @@ import "errors"
 
 // Divison is division two ints.
 func Division(a int, b int) (div int, err error) {
-	if b <= 0 {
+	if b == 0 {
 		return div, errors.New("Cannot use zero in second argument.")
 	}
 
