@@ -10,7 +10,7 @@ func TestDivision(t *testing.T) {
 	div, err := Division(a, b)
 
 	if err != nil {
-		t.Errorf("err want nil.")
+		t.Errorf("Division has error.")
 	}
 
 	if div != 2 {
