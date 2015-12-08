@@ -17,3 +17,15 @@ func TestDivision(t *testing.T) {
 		t.Errorf("sum want (%d).", 2)
 	}
 }
+
+func TestDivisionNoErr(t *testing.T) {
+	var a, b int
+	a = 20
+	b = 5
+
+	div, _ := Division(a, b)
+
+	if div != 4 {
+		t.Errorf("sum want (%d).", 4)
+	}
+}
