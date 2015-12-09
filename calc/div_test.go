@@ -14,7 +14,7 @@ func TestDivision(t *testing.T) {
 	}
 
 	if div != 2 {
-		t.Errorf("sum want (%d).", 2)
+		t.Errorf("div want (%d).", 2)
 	}
 }
 
